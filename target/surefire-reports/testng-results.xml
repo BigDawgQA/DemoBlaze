@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-13T23:22:39 BST" name="Suite1" finished-at="2024-06-13T23:23:16 BST" duration-ms="36787">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
+        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
+        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" name="CheckOutWithoutLogin" class="testCases.TC_001_Validate_CheckOut_Without_Login"/>
+        <method signature="TC_002_Validate_SendContactMessage.SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" name="SendMessage" class="testCases.TC_002_Validate_SendContactMessage"/>
+        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
+        <method signature="TC_004_Invalid_SignUp.invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" name="invalidSignUp" class="testCases.TC_004_Invalid_SignUp"/>
+        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
+        <method signature="TC_006_Validate_Broken_Links.validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" name="validateBrokenLinks" class="testCases.TC_006_Validate_Broken_Links"/>
+        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-06-13T23:22:39 BST" name="Regression" finished-at="2024-06-13T23:23:16 BST" duration-ms="36787">
+      <class name="testCases.TC_004_Invalid_SignUp">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:54 BST" name="setup" finished-at="2024-06-13T23:22:56 BST" duration-ms="1623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:56 BST" name="invalidSignUp" finished-at="2024-06-13T23:22:57 BST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:57 BST" name="closeBrowser" finished-at="2024-06-13T23:22:58 BST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_004_Invalid_SignUp -->
+      <class name="testCases.TC_002_Validate_SendContactMessage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:48 BST" name="setup" finished-at="2024-06-13T23:22:50 BST" duration-ms="1755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:50 BST" name="SendMessage" finished-at="2024-06-13T23:22:51 BST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMessage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:51 BST" name="closeBrowser" finished-at="2024-06-13T23:22:51 BST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_002_Validate_SendContactMessage -->
+      <class name="testCases.TC_005_Validate_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:22:58 BST" name="setup" finished-at="2024-06-13T23:22:59 BST" duration-ms="1572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:22:59 BST" name="valid_Login" finished-at="2024-06-13T23:23:01 BST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:23:01 BST" name="closeBrowser" finished-at="2024-06-13T23:23:01 BST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_005_Validate_Login -->
+      <class name="testCases.TC_001_Validate_CheckOut_Without_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:40 BST" name="setup" finished-at="2024-06-13T23:22:42 BST" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:42 BST" name="CheckOutWithoutLogin" finished-at="2024-06-13T23:22:48 BST" duration-ms="6342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutWithoutLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:48 BST" name="closeBrowser" finished-at="2024-06-13T23:22:48 BST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_001_Validate_CheckOut_Without_Login -->
+      <class name="testCases.TC_007_Validate_CheckOut">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:06 BST" name="setup" finished-at="2024-06-13T23:23:08 BST" duration-ms="1610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:08 BST" name="Valid_CheckOut" finished-at="2024-06-13T23:23:16 BST" duration-ms="8095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_CheckOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:16 BST" name="closeBrowser" finished-at="2024-06-13T23:23:16 BST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_007_Validate_CheckOut -->
+      <class name="testCases.TC_006_Validate_Broken_Links">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:01 BST" name="setup" finished-at="2024-06-13T23:23:04 BST" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:04 BST" name="validateBrokenLinks" finished-at="2024-06-13T23:23:06 BST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:06 BST" name="closeBrowser" finished-at="2024-06-13T23:23:06 BST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_006_Validate_Broken_Links -->
+      <class name="testCases.TC_003_Validate_SignUp">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:51 BST" name="setup" finished-at="2024-06-13T23:22:53 BST" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:53 BST" name="signUp" finished-at="2024-06-13T23:22:54 BST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:54 BST" name="closeBrowser" finished-at="2024-06-13T23:22:54 BST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_003_Validate_SignUp -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>
