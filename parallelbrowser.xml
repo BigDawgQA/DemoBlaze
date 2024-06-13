@@ -1,0 +1,40 @@
+<suite name="Suite1" parellel="classes" thread-count="5">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+
+    <test name="Chrome_Test">
+        <parameter name="os"  value="Windows" />
+        <parameter name="browser"  value="CHROME" />
+
+        <classes>
+            <class name="testCases.TC_001_Validate_CheckOut_Without_Login"/>
+            <class name="testCases.TC_002_Validate_SendContactMessage"/>
+            <class name="testCases.TC_003_Validate_SignUp"/>
+            <class name="testCases.TC_004_Invalid_SignUp"/>
+            <class name="testCases.TC_005_Validate_Login"/>
+            <class name="testCases.TC_006_Validate_Broken_Links"/>
+            <class name="testCases.TC_007_Validate_CheckOut"/>
+        </classes>
+
+    </test>
+
+
+<!--    <test name="Edge_Test">-->
+<!--        <parameter name="os"  value="Windows" />-->
+<!--        <parameter name="browser"  value="EDGE" />-->
+
+<!--        <classes>-->
+<!--            <class name="testCases.TC_001_Validate_CheckOut_Without_Login"/>-->
+<!--            <class name="testCases.TC_002_Validate_SendContactMessage"/>master.xml-->
+<!--            <class name="testCases.TC_003_Validate_SignUp"/>-->
+<!--            <class name="testCases.TC_004_Invalid_SignUp"/>-->
+<!--            <class name="testCases.TC_005_Validate_Login"/>-->
+<!--            <class name="testCases.TC_006_Validate_Broken_Links"/>-->
+<!--            <class name="testCases.TC_007_Validate_CheckOut"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
