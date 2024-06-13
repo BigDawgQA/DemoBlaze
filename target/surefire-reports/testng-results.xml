@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T23:22:39 BST" name="Suite1" finished-at="2024-06-13T23:23:16 BST" duration-ms="36787">
+  <suite started-at="2024-06-13T23:58:11 BST" name="Suite1" finished-at="2024-06-13T23:58:46 BST" duration-ms="35085">
     <groups>
       <group name="sanity">
-        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
-        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
-        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
+        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@31bcf236]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
+        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@4fad9bb2]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
+        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@7862f56]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" name="CheckOutWithoutLogin" class="testCases.TC_001_Validate_CheckOut_Without_Login"/>
-        <method signature="TC_002_Validate_SendContactMessage.SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" name="SendMessage" class="testCases.TC_002_Validate_SendContactMessage"/>
-        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
-        <method signature="TC_004_Invalid_SignUp.invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" name="invalidSignUp" class="testCases.TC_004_Invalid_SignUp"/>
-        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
-        <method signature="TC_006_Validate_Broken_Links.validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" name="validateBrokenLinks" class="testCases.TC_006_Validate_Broken_Links"/>
-        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
+        <method signature="TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@5d12a356]" name="CheckOutWithoutLogin" class="testCases.TC_001_Validate_CheckOut_Without_Login"/>
+        <method signature="TC_002_Validate_SendContactMessage.SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@797cf65c]" name="SendMessage" class="testCases.TC_002_Validate_SendContactMessage"/>
+        <method signature="TC_003_Validate_SignUp.signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@31bcf236]" name="signUp" class="testCases.TC_003_Validate_SignUp"/>
+        <method signature="TC_004_Invalid_SignUp.invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@4b3ed2f0]" name="invalidSignUp" class="testCases.TC_004_Invalid_SignUp"/>
+        <method signature="TC_005_Validate_Login.valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@4fad9bb2]" name="valid_Login" class="testCases.TC_005_Validate_Login"/>
+        <method signature="TC_006_Validate_Broken_Links.validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@517d4a0d]" name="validateBrokenLinks" class="testCases.TC_006_Validate_Broken_Links"/>
+        <method signature="TC_007_Validate_CheckOut.Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@7862f56]" name="Valid_CheckOut" class="testCases.TC_007_Validate_CheckOut"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-06-13T23:22:39 BST" name="Regression" finished-at="2024-06-13T23:23:16 BST" duration-ms="36787">
+    <test started-at="2024-06-13T23:58:11 BST" name="Regression" finished-at="2024-06-13T23:58:46 BST" duration-ms="35085">
       <class name="testCases.TC_004_Invalid_SignUp">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:54 BST" name="setup" finished-at="2024-06-13T23:22:56 BST" duration-ms="1623" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_Invalid_SignUp@4b3ed2f0]" started-at="2024-06-13T23:58:23 BST" name="setup" finished-at="2024-06-13T23:58:25 BST" duration-ms="1714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +37,80 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:56 BST" name="invalidSignUp" finished-at="2024-06-13T23:22:57 BST" duration-ms="1207" status="PASS">
+        <test-method signature="invalidSignUp()[pri:0, instance:testCases.TC_004_Invalid_SignUp@4b3ed2f0]" started-at="2024-06-13T23:58:25 BST" name="invalidSignUp" finished-at="2024-06-13T23:58:26 BST" duration-ms="786" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: chrome=125.0.6422.141): Please fill out Username and Password.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f4e2a13ffa0bb79f38372048e0557c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63366/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f4e2a13ffa0bb79f38372048e0557c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: chrome=125.0.6422.141): Please fill out Username and Password.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f4e2a13ffa0bb79f38372048e0557c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63366/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f4e2a13ffa0bb79f38372048e0557c
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+at testBase.TestBase.captureScreen(TestBase.java:128)
+at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:77)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:774)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSignUp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_004_Invalid_SignUp@7fc44dec]" started-at="2024-06-13T23:22:57 BST" name="closeBrowser" finished-at="2024-06-13T23:22:58 BST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_004_Invalid_SignUp@4b3ed2f0]" started-at="2024-06-13T23:58:26 BST" name="closeBrowser" finished-at="2024-06-13T23:58:27 BST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_004_Invalid_SignUp -->
       <class name="testCases.TC_002_Validate_SendContactMessage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:48 BST" name="setup" finished-at="2024-06-13T23:22:50 BST" duration-ms="1755" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@797cf65c]" started-at="2024-06-13T23:58:16 BST" name="setup" finished-at="2024-06-13T23:58:18 BST" duration-ms="2174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,43 +126,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:50 BST" name="SendMessage" finished-at="2024-06-13T23:22:51 BST" duration-ms="740" status="PASS">
+        <test-method signature="SendMessage()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@797cf65c]" started-at="2024-06-13T23:58:18 BST" name="SendMessage" finished-at="2024-06-13T23:58:20 BST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendMessage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@2dbf4cbd]" started-at="2024-06-13T23:22:51 BST" name="closeBrowser" finished-at="2024-06-13T23:22:51 BST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_Validate_SendContactMessage@797cf65c]" started-at="2024-06-13T23:58:20 BST" name="closeBrowser" finished-at="2024-06-13T23:58:20 BST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_002_Validate_SendContactMessage -->
-      <class name="testCases.TC_005_Validate_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:22:58 BST" name="setup" finished-at="2024-06-13T23:22:59 BST" duration-ms="1572" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:22:59 BST" name="valid_Login" finished-at="2024-06-13T23:23:01 BST" duration-ms="1938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valid_Login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_005_Validate_Login@7e3060d8]" started-at="2024-06-13T23:23:01 BST" name="closeBrowser" finished-at="2024-06-13T23:23:01 BST" duration-ms="288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testCases.TC_005_Validate_Login -->
       <class name="testCases.TC_001_Validate_CheckOut_Without_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:40 BST" name="setup" finished-at="2024-06-13T23:22:42 BST" duration-ms="2179" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@5d12a356]" started-at="2024-06-13T23:58:11 BST" name="setup" finished-at="2024-06-13T23:58:14 BST" duration-ms="3058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,17 +152,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:42 BST" name="CheckOutWithoutLogin" finished-at="2024-06-13T23:22:48 BST" duration-ms="6342" status="PASS">
+        <test-method signature="CheckOutWithoutLogin()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@5d12a356]" started-at="2024-06-13T23:58:14 BST" name="CheckOutWithoutLogin" finished-at="2024-06-13T23:58:15 BST" duration-ms="1102" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8c58fc3bb1e9b351d44b5a3a1410e3, clickElement {id=f.B98E3D67167EECE1B88BA1920E2D32FE.d.C2849AC93D09999A815C6C18961E7D17.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63255/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ac8c58fc3bb1e9b351d44b5a3a1410e3)] -> xpath: //a[normalize-space()='Samsung galaxy s6']]
+Session ID: ac8c58fc3bb1e9b351d44b5a3a1410e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8c58fc3bb1e9b351d44b5a3a1410e3, clickElement {id=f.B98E3D67167EECE1B88BA1920E2D32FE.d.C2849AC93D09999A815C6C18961E7D17.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63255/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ac8c58fc3bb1e9b351d44b5a3a1410e3)] -> xpath: //a[normalize-space()='Samsung galaxy s6']]
+Session ID: ac8c58fc3bb1e9b351d44b5a3a1410e3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pageObjects.HomePage.clickSamSungS6(HomePage.java:161)
+at testCases.TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin(TC_001_Validate_CheckOut_Without_Login.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOutWithoutLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@36676c1a]" started-at="2024-06-13T23:22:48 BST" name="closeBrowser" finished-at="2024-06-13T23:22:48 BST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_Validate_CheckOut_Without_Login@5d12a356]" started-at="2024-06-13T23:58:16 BST" name="closeBrowser" finished-at="2024-06-13T23:58:16 BST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_001_Validate_CheckOut_Without_Login -->
-      <class name="testCases.TC_007_Validate_CheckOut">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:06 BST" name="setup" finished-at="2024-06-13T23:23:08 BST" duration-ms="1610" status="PASS">
+      <class name="testCases.TC_005_Validate_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_Validate_Login@4fad9bb2]" started-at="2024-06-13T23:58:27 BST" name="setup" finished-at="2024-06-13T23:58:29 BST" duration-ms="2075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,17 +259,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:08 BST" name="Valid_CheckOut" finished-at="2024-06-13T23:23:16 BST" duration-ms="8095" status="PASS">
+        <test-method signature="valid_Login()[pri:0, instance:testCases.TC_005_Validate_Login@4fad9bb2]" started-at="2024-06-13T23:58:29 BST" name="valid_Login" finished-at="2024-06-13T23:58:30 BST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_005_Validate_Login@4fad9bb2]" started-at="2024-06-13T23:58:30 BST" name="closeBrowser" finished-at="2024-06-13T23:58:31 BST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_005_Validate_Login -->
+      <class name="testCases.TC_007_Validate_CheckOut">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_Validate_CheckOut@7862f56]" started-at="2024-06-13T23:58:36 BST" name="setup" finished-at="2024-06-13T23:58:37 BST" duration-ms="1619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Valid_CheckOut()[pri:0, instance:testCases.TC_007_Validate_CheckOut@7862f56]" started-at="2024-06-13T23:58:37 BST" name="Valid_CheckOut" finished-at="2024-06-13T23:58:46 BST" duration-ms="8346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_CheckOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_007_Validate_CheckOut@2692b61e]" started-at="2024-06-13T23:23:16 BST" name="closeBrowser" finished-at="2024-06-13T23:23:16 BST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_007_Validate_CheckOut@7862f56]" started-at="2024-06-13T23:58:46 BST" name="closeBrowser" finished-at="2024-06-13T23:58:46 BST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_007_Validate_CheckOut -->
       <class name="testCases.TC_006_Validate_Broken_Links">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:01 BST" name="setup" finished-at="2024-06-13T23:23:04 BST" duration-ms="2170" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_Validate_Broken_Links@517d4a0d]" started-at="2024-06-13T23:58:31 BST" name="setup" finished-at="2024-06-13T23:58:33 BST" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,17 +311,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:04 BST" name="validateBrokenLinks" finished-at="2024-06-13T23:23:06 BST" duration-ms="2414" status="PASS">
+        <test-method signature="validateBrokenLinks()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@517d4a0d]" started-at="2024-06-13T23:58:33 BST" name="validateBrokenLinks" finished-at="2024-06-13T23:58:35 BST" duration-ms="2706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokenLinks -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@293d0107]" started-at="2024-06-13T23:23:06 BST" name="closeBrowser" finished-at="2024-06-13T23:23:06 BST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_006_Validate_Broken_Links@517d4a0d]" started-at="2024-06-13T23:58:35 BST" name="closeBrowser" finished-at="2024-06-13T23:58:36 BST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_006_Validate_Broken_Links -->
       <class name="testCases.TC_003_Validate_SignUp">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:51 BST" name="setup" finished-at="2024-06-13T23:22:53 BST" duration-ms="1667" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_SignUp@31bcf236]" started-at="2024-06-13T23:58:20 BST" name="setup" finished-at="2024-06-13T23:58:22 BST" duration-ms="1597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,11 +337,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:53 BST" name="signUp" finished-at="2024-06-13T23:22:54 BST" duration-ms="1364" status="PASS">
+        <test-method signature="signUp()[pri:0, instance:testCases.TC_003_Validate_SignUp@31bcf236]" started-at="2024-06-13T23:58:22 BST" name="signUp" finished-at="2024-06-13T23:58:23 BST" duration-ms="1478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_Validate_SignUp@20b5f2ac]" started-at="2024-06-13T23:22:54 BST" name="closeBrowser" finished-at="2024-06-13T23:22:54 BST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_Validate_SignUp@31bcf236]" started-at="2024-06-13T23:58:23 BST" name="closeBrowser" finished-at="2024-06-13T23:58:23 BST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -9,14 +9,58 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite1</th></tr>
-<tr><td><a href="#t0">Regression</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,787</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Regression</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">35,085</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_001_Validate_CheckOut_Without_Login</td><td><a href="#m0">CheckOutWithoutLogin</a></td><td rowspan="1">1718317362257</td><td rowspan="1">6342</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_002_Validate_SendContactMessage</td><td><a href="#m1">SendMessage</a></td><td rowspan="1">1718317370716</td><td rowspan="1">740</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_003_Validate_SignUp</td><td><a href="#m2">signUp</a></td><td rowspan="1">1718317373363</td><td rowspan="1">1364</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_004_Invalid_SignUp</td><td><a href="#m3">invalidSignUp</a></td><td rowspan="1">1718317376567</td><td rowspan="1">1207</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_005_Validate_Login</td><td><a href="#m4">valid_Login</a></td><td rowspan="1">1718317379632</td><td rowspan="1">1938</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_006_Validate_Broken_Links</td><td><a href="#m5">validateBrokenLinks</a></td><td rowspan="1">1718317384032</td><td rowspan="1">2414</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_007_Validate_CheckOut</td><td><a href="#m6">Valid_CheckOut</a></td><td rowspan="1">1718317388316</td><td rowspan="1">8095</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_001_Validate_CheckOut_Without_Login</td><td><a href="#m0">CheckOutWithoutLogin</a></td><td rowspan="1">1718319494797</td><td rowspan="1">1102</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC_004_Invalid_SignUp</td><td><a href="#m1">invalidSignUp</a></td><td rowspan="1">1718319505644</td><td rowspan="1">786</td></tr><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_002_Validate_SendContactMessage</td><td><a href="#m2">SendMessage</a></td><td rowspan="1">1718319498836</td><td rowspan="1">1344</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_003_Validate_SignUp</td><td><a href="#m3">signUp</a></td><td rowspan="1">1718319502185</td><td rowspan="1">1478</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_005_Validate_Login</td><td><a href="#m4">valid_Login</a></td><td rowspan="1">1718319509110</td><td rowspan="1">1696</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_006_Validate_Broken_Links</td><td><a href="#m5">validateBrokenLinks</a></td><td rowspan="1">1718319513218</td><td rowspan="1">2706</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_007_Validate_CheckOut</td><td><a href="#m6">Valid_CheckOut</a></td><td rowspan="1">1718319517776</td><td rowspan="1">8346</td></tr></tbody>
 </table>
-<h2>Regression</h2><h3 id="m0">testCases.TC_001_Validate_CheckOut_Without_Login#CheckOutWithoutLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC_002_Validate_SendContactMessage#SendMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TC_003_Validate_SignUp#signUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TC_004_Invalid_SignUp#invalidSignUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression</h2><h3 id="m0">testCases.TC_001_Validate_CheckOut_Without_Login#CheckOutWithoutLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8c58fc3bb1e9b351d44b5a3a1410e3, clickElement {id=f.B98E3D67167EECE1B88BA1920E2D32FE.d.C2849AC93D09999A815C6C18961E7D17.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63255/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ac8c58fc3bb1e9b351d44b5a3a1410e3)] -&gt; xpath: //a[normalize-space()=&apos;Samsung galaxy s6&apos;]]
+Session ID: ac8c58fc3bb1e9b351d44b5a3a1410e3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pageObjects.HomePage.clickSamSungS6(HomePage.java:161)
+	at testCases.TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin(TC_001_Validate_CheckOut_Without_Login.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC_004_Invalid_SignUp#invalidSignUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: chrome=125.0.6422.141): Please fill out Username and Password.
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f4e2a13ffa0bb79f38372048e0557c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63366/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f4e2a13ffa0bb79f38372048e0557c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at testBase.TestBase.captureScreen(TestBase.java:128)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC_002_Validate_SendContactMessage#SendMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC_003_Validate_SignUp#signUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">testCases.TC_005_Validate_Login#valid_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">testCases.TC_006_Validate_Broken_Links#validateBrokenLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">testCases.TC_007_Validate_CheckOut#Valid_CheckOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

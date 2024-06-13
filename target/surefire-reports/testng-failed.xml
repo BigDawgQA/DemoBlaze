@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" verbose="0">
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TC_001_Validate_CheckOut_Without_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="CheckOutWithoutLogin"/>
+        </methods>
+      </class> <!-- testCases.TC_001_Validate_CheckOut_Without_Login -->
+      <class name="testCases.TC_004_Invalid_SignUp">
+        <methods>
+          <include name="setup"/>
+          <include name="invalidSignUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC_004_Invalid_SignUp -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

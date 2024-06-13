@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite1" class="navigator-link">
-              <span class="suite-name border-passed">Suite1</span>
+              <span class="suite-name border-failed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testCases.TC_001_Validate_CheckOut_Without_Login" class="method navigator-link" hash-for-method="CheckOutWithoutLogin">CheckOutWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testCases.TC_004_Invalid_SignUp" class="method navigator-link" hash-for-method="invalidSignUp">invalidSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +122,12 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="testCases.TC_001_Validate_CheckOut_Without_Login" class="method navigator-link" hash-for-method="CheckOutWithoutLogin">CheckOutWithoutLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="testCases.TC_002_Validate_SendContactMessage" class="method navigator-link" hash-for-method="SendMessage">SendMessage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="testCases.TC_007_Validate_CheckOut" class="method navigator-link" hash-for-method="Valid_CheckOut">Valid_CheckOut</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="testCases.TC_004_Invalid_SignUp" class="method navigator-link" hash-for-method="invalidSignUp">invalidSignUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,6 +157,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_001_Validate_CheckOut_Without_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckOutWithoutLogin">
+                  </a> <!-- CheckOutWithoutLogin -->
+                  <span class="method-name">CheckOutWithoutLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8c58fc3bb1e9b351d44b5a3a1410e3, clickElement {id=f.B98E3D67167EECE1B88BA1920E2D32FE.d.C2849AC93D09999A815C6C18961E7D17.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63255/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ac8c58fc3bb1e9b351d44b5a3a1410e3)] -&gt; xpath: //a[normalize-space()=&apos;Samsung galaxy s6&apos;]]
+Session ID: ac8c58fc3bb1e9b351d44b5a3a1410e3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pageObjects.HomePage.clickSamSungS6(HomePage.java:161)
+	at testCases.TC_001_Validate_CheckOut_Without_Login.CheckOutWithoutLogin(TC_001_Validate_CheckOut_Without_Login.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_004_Invalid_SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidSignUp">
+                  </a> <!-- invalidSignUp -->
+                  <span class="method-name">invalidSignUp</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: chrome=125.0.6422.141): Please fill out Username and Password.
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f4e2a13ffa0bb79f38372048e0557c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\User1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63366}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63366/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f4e2a13ffa0bb79f38372048e0557c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at testBase.TestBase.captureScreen(TestBase.java:128)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -181,29 +268,14 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_001_Validate_CheckOut_Without_Login</span>
+              <span class="class-name">testCases.TC_002_Validate_SendContactMessage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckOutWithoutLogin">
-                  </a> <!-- CheckOutWithoutLogin -->
-                  <span class="method-name">CheckOutWithoutLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_005_Validate_Login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="valid_Login">
-                  </a> <!-- valid_Login -->
-                  <span class="method-name">valid_Login</span>
+                  <a name="SendMessage">
+                  </a> <!-- SendMessage -->
+                  <span class="method-name">SendMessage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,29 +298,14 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_002_Validate_SendContactMessage</span>
+              <span class="class-name">testCases.TC_005_Validate_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SendMessage">
-                  </a> <!-- SendMessage -->
-                  <span class="method-name">SendMessage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_004_Invalid_SignUp</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidSignUp">
-                  </a> <!-- invalidSignUp -->
-                  <span class="method-name">invalidSignUp</span>
+                  <a name="valid_Login">
+                  </a> <!-- valid_Login -->
+                  <span class="method-name">valid_Login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -368,36 +425,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Valid_CheckOut')
 data.setCell(0, 2, 'testCases.TC_007_Validate_CheckOut')
-data.setCell(0, 3, 8095);
+data.setCell(0, 3, 8346);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CheckOutWithoutLogin')
-data.setCell(1, 2, 'testCases.TC_001_Validate_CheckOut_Without_Login')
-data.setCell(1, 3, 6342);
+data.setCell(1, 1, 'validateBrokenLinks')
+data.setCell(1, 2, 'testCases.TC_006_Validate_Broken_Links')
+data.setCell(1, 3, 2706);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateBrokenLinks')
-data.setCell(2, 2, 'testCases.TC_006_Validate_Broken_Links')
-data.setCell(2, 3, 2414);
+data.setCell(2, 1, 'valid_Login')
+data.setCell(2, 2, 'testCases.TC_005_Validate_Login')
+data.setCell(2, 3, 1696);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'valid_Login')
-data.setCell(3, 2, 'testCases.TC_005_Validate_Login')
-data.setCell(3, 3, 1938);
+data.setCell(3, 1, 'signUp')
+data.setCell(3, 2, 'testCases.TC_003_Validate_SignUp')
+data.setCell(3, 3, 1478);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'signUp')
-data.setCell(4, 2, 'testCases.TC_003_Validate_SignUp')
-data.setCell(4, 3, 1364);
+data.setCell(4, 1, 'SendMessage')
+data.setCell(4, 2, 'testCases.TC_002_Validate_SendContactMessage')
+data.setCell(4, 3, 1344);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'invalidSignUp')
-data.setCell(5, 2, 'testCases.TC_004_Invalid_SignUp')
-data.setCell(5, 3, 1207);
+data.setCell(5, 1, 'CheckOutWithoutLogin')
+data.setCell(5, 2, 'testCases.TC_001_Validate_CheckOut_Without_Login')
+data.setCell(5, 3, 1102);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SendMessage')
-data.setCell(6, 2, 'testCases.TC_002_Validate_SendContactMessage')
-data.setCell(6, 3, 740);
+data.setCell(6, 1, 'invalidSignUp')
+data.setCell(6, 2, 'testCases.TC_004_Invalid_SignUp')
+data.setCell(6, 3, 786);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -429,102 +486,106 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">CheckOutWithoutLogin</span>
-                <span class="method-start">2196 ms</span>
+                <span class="method-start">3078 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8670 ms</span>
+                <span class="method-start">4592 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_Validate_SendContactMessage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">8900 ms</span>
+                <span class="method-start">4942 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">SendMessage</span>
-                <span class="method-start">10655 ms</span>
+                <span class="method-start">7117 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">11401 ms</span>
+                <span class="method-start">8470 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_Validate_SignUp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">11634 ms</span>
+                <span class="method-start">8868 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">signUp</span>
-                <span class="method-start">13302 ms</span>
+                <span class="method-start">10466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">14672 ms</span>
+                <span class="method-start">11946 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_004_Invalid_SignUp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">14878 ms</span>
+                <span class="method-start">12209 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">invalidSignUp</span>
-                <span class="method-start">16506 ms</span>
+                <span class="method-start">13925 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">17715 ms</span>
+                <span class="method-start">15061 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_005_Validate_Login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">17998 ms</span>
+                <span class="method-start">15314 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">valid_Login</span>
-                <span class="method-start">19571 ms</span>
+                <span class="method-start">17391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21512 ms</span>
+                <span class="method-start">19088 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_006_Validate_Broken_Links</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">21801 ms</span>
+                <span class="method-start">19325 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateBrokenLinks</span>
-                <span class="method-start">23971 ms</span>
+                <span class="method-start">21499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">26387 ms</span>
+                <span class="method-start">24207 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_007_Validate_CheckOut</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">26644 ms</span>
+                <span class="method-start">24437 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Valid_CheckOut</span>
-                <span class="method-start">28255 ms</span>
+                <span class="method-start">26057 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">36352 ms</span>
+                <span class="method-start">34404 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
