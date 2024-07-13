@@ -1,10 +1,10 @@
-<suite name="Suite1" verbose="1">
+<suite name="Suite1" parallel="classes" thread-count="5">
 
     <listeners>
         <listener class-name="utilities.ExtentReportManager"/>
     </listeners>
 
-    <parameter name="os"  value="Windows" />
+    <parameter name="os"  value="linux" />
     <parameter name="browser"  value="chrome" />
 
     <test name="Regression">

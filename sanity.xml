@@ -1,5 +1,9 @@
 <suite name="Suite1" verbose="1">
 
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
     <groups>
         <run>
             <include name= "sanity"/>
@@ -9,7 +13,7 @@
     <parameter name="os"  value="Windows" />
     <parameter name="browser"  value="chrome" />
 
-    <test name="Regression">
+    <test name="Sanity_Test">
 
         <classes>
             <class name="testCases.TC_001_Validate_CheckOut_Without_Login"/>

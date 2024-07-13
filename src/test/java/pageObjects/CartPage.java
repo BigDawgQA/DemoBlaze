@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -55,7 +56,10 @@ public class CartPage extends BasePage{
 
     public void setCreditCard_input(String creditCard){
 
-        creditCard_input.sendKeys(creditCard);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value', arguments[1])", creditCard_input, creditCard);
+
+        //creditCard_input.sendKeys(creditCard);
     }
 
     public void setMonth_input(String month){
@@ -82,8 +86,6 @@ public class CartPage extends BasePage{
 
         ok_btn.click();
     }
-
-
 
 
 

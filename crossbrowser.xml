@@ -8,7 +8,7 @@
 
 
     <test name="Chrome_Test">
-        <parameter name="os"  value="Windows" />
+        <parameter name="os"  value="linux" />
         <parameter name="browser"  value="CHROME" />
 
         <classes>
@@ -25,7 +25,7 @@
 
     <test name="Edge_Test">
 
-        <parameter name="os"  value="Windows" />
+        <parameter name="os"  value="linux" />
         <parameter name="browser"  value="EDGE" />
 
         <classes>

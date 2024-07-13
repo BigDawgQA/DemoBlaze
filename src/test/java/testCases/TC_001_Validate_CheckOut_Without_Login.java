@@ -64,15 +64,7 @@ public class TC_001_Validate_CheckOut_Without_Login extends TestBase {
 
 
 
-
-
-
-
-
-
     }
-
-
 
 
 }

@@ -53,6 +53,9 @@ public class TestBase {
 
                 capabilities.setPlatform(Platform.MAC);
             }
+            else if(os.equalsIgnoreCase("linux")){
+                capabilities.setPlatform(Platform.LINUX);
+            }
             else{
                 System.out.println("No matching OS");
                 return;
@@ -67,6 +70,9 @@ public class TestBase {
                 }
                 case "safari" -> {
                     capabilities.setBrowserName("safari");
+                }
+                case "firefox" -> {
+                    capabilities.setBrowserName("firefox");
                 }
                 default -> {
                     System.out.println("No supporting Browser");
@@ -155,14 +161,6 @@ public class TestBase {
 
         return generatedString + "@" + generatedNumber+ "#" + generatedNumber2;
     }
-
-
-
-
-
-
-
-
 
 
 }
